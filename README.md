@@ -2,6 +2,9 @@
 
 This project uses a Support Vector Machine (SVM) to classify songs into genres based on their audio data.
 
+## Dataset
+https://www.kaggle.com/datasets/aniruddhachoudhury/classify-song-genres-from-audio-data
+
 ## Code Overview
 
 The code starts by importing the necessary libraries and creating a MultiLabelBinarizer object. This object is used to transform the 'genres' and 'genres_all' columns of the dataframe into a binary format suitable for machine learning.
